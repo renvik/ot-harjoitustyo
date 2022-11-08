@@ -1,0 +1,193 @@
+
+
+renvik@lx0-fuxi190:~/repos/ohte/ot_viikko1/tiedostoja$ git log --stat | cat 
+
+commit 6679ad1a70b4bf828633344ec6ed1ee16dc2d5de 
+
+Author: renvik <51605816+renvik@users.noreply.github.com> 
+
+Date:   Tue Nov 8 12:45:26 2022 +0200 
+
+  
+
+    uusi directory 
+
+  
+
+tiedostoja/file1 | 0 
+
+tiedostoja/file2 | 0 
+
+tiedostoja/file3 | 0 
+
+3 files changed, 0 insertions(+), 0 deletions(-) 
+
+  
+
+commit 3dea66829f7bf3f7953ad5eef755925a18080cf3 
+
+Author: renvik <51605816+renvik@users.noreply.github.com> 
+
+Date:   Tue Nov 8 12:31:41 2022 +0200 
+
+  
+
+    changed eka.txt and kolmas.txt 
+
+  
+
+eka.txt    | 1 + 
+
+kolmas.txt | 3 ++- 
+
+2 files changed, 3 insertions(+), 1 deletion(-) 
+
+  
+
+commit dc335edc3cfc8dade9f979e01b3620d1b7ab626b 
+
+Author: renvik <51605816+renvik@users.noreply.github.com> 
+
+Date:   Tue Nov 8 12:25:48 2022 +0200 
+
+  
+
+    file rename 
+
+  
+
+tiedosto.txt => eka.txt | 0 
+
+toinen.txt              | 1 - 
+
+2 files changed, 1 deletion(-) 
+
+  
+
+commit 5ca6bda32f2aef5f255ee20cae17c36962262e5f 
+
+Author: renvik <51605816+renvik@users.noreply.github.com> 
+
+Date:   Tue Nov 8 12:18:32 2022 +0200 
+
+  
+
+    deleted and added text in text.txt 
+
+  
+
+tiedosto.txt | 1726 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++- 
+
+1 file changed, 1725 insertions(+), 1 deletion(-) 
+
+  
+
+commit e9fbc702b4ea9ad1a47bb37b51dcf8e75fc5b3be 
+
+Author: renvik <51605816+renvik@users.noreply.github.com> 
+
+Date:   Tue Nov 8 12:15:53 2022 +0200 
+
+  
+
+    lisätty tekstiä teksti.txt 
+
+  
+
+tiedosto.txt | 1727 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++- 
+
+1 file changed, 1726 insertions(+), 1 deletion(-) 
+
+  
+
+commit dd867331322d382456fcec0f6e5ba1c1df75ed3e 
+
+Author: renvik <51605816+renvik@users.noreply.github.com> 
+
+Date:   Tue Nov 8 10:42:04 2022 +0200 
+
+  
+
+    uusi dir ja file lisätty 
+
+  
+
+stuff/kamaa.txt | 1 + 
+
+1 file changed, 1 insertion(+) 
+
+  
+
+commit 9dbfb635eab1ac4f3346991b82ff4640fd4022db 
+
+Author: renvik <51605816+renvik@users.noreply.github.com> 
+
+Date:   Tue Nov 8 10:40:28 2022 +0200 
+
+  
+
+    toista ja kolmatta modattu 
+
+  
+
+kolmas.txt | 1 + 
+
+toinen.txt | 1 + 
+
+2 files changed, 2 insertions(+) 
+
+  
+
+commit cf53fa75b25aeca8260be9e4b39384dfdd4c0f70 
+
+Author: renvik <51605816+renvik@users.noreply.github.com> 
+
+Date:   Tue Nov 8 10:38:45 2022 +0200 
+
+  
+
+    kolmas.txt lisätty 
+
+  
+
+kolmas.txt | 0 
+
+1 file changed, 0 insertions(+), 0 deletions(-) 
+
+  
+
+commit 1525fbc56c5ed74c36da4174a5f4cc4e87260909 
+
+Author: renvik <51605816+renvik@users.noreply.github.com> 
+
+Date:   Tue Nov 8 10:34:02 2022 +0200 
+
+  
+
+    muutos ja lisäys 
+
+  
+
+tiedosto.txt | 1 + 
+
+toinen.txt   | 0 
+
+2 files changed, 1 insertion(+) 
+
+  
+
+commit 54e495a94588b7bf1b17349cd45519fef1e9f95b 
+
+Author: renvik <51605816+renvik@users.noreply.github.com> 
+
+Date:   Tue Nov 8 10:30:06 2022 +0200 
+
+  
+
+    tiedosto.txt luotu 
+
+  
+
+tiedosto.txt | 0 
+
+1 file changed, 0 insertions(+), 0 deletions(-) 
