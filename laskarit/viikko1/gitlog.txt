@@ -1,4 +1,4 @@
-
+small change just to cause some git issues:)
 
 renvik@lx0-fuxi190:~/repos/ohte/ot_viikko1/tiedostoja$ git log --stat | cat 
 
