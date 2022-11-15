@@ -4,6 +4,7 @@ This is *a simple application* that was made for the course Ohjelmistotekniikka.
 The coding language is **Python3** which is *considered to be* easy to learn and 
 the syntax is similar to english.
 [vaatimusmaarittely.md](https://github.com/renvik/ot-harjoitustyo/blob/main/dokumentaatio/vaatimusmaarittely.md)
+[työaikakirjanpito](https://github.com/renvik/ot-harjoitustyo/blob/main/dokumentaatio/tyoaikakirjanpito.md)
 
 ### Laskarit
 #### Viikko 1
