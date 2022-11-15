@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ot-viikko2"
+version = "0.1.0"
+description = "vko2"
+authors = ["renvik < 51605816+renvik@users.noreply.github.com >"]
+readme = "README.md"
+packages = [{include = "ot_viikko2"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
