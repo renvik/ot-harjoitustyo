@@ -1,9 +1,18 @@
-#import cowsay
-import requests
-#import pandas as pd
-#from tabulate import tabulate
+from tkinter import Tk
+from ui.ui import UI
 
-r = requests.get('https://rata.digitraffic.fi/api/v1/trains/2017-01-01/1')
-print(r.status_code)
-print(r.json())
+def main():
+
+    window = Tk()
+    #window.title("Todo application")
+
+    ui_view = UI(window)
+    ui_view.start()
+
+    window.mainloop()
+
+
+if __name__ == "__main__":
+    main()
+
 
