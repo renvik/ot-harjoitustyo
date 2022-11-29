@@ -6,5 +6,7 @@
 - Asennettu pytest, tehty runko testaukseen käytettävään tiedostoon, varsinainen testi kuitenkin puuttuu vielä
 ## Viikko 4
 - Tehty pakkauskaavio
-- Rajapinnan vastauksen tietojen näyttäminen graafisessa käyttöliittymässä
-- Lisätty testi rajapintaan
+- Rajapinnan vastauksen tietojen näyttäminen graafisessa käyttöliittymässä (ei toimi vielä)
+- Lisätty testi rajapintaan (joka ei myöskään toimi vielä)
+- Lisätty invoken taskeja
+- päivitetty dokumentaatio, lisätty arkkitehtuuri.md
