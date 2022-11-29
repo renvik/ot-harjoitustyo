@@ -1,6 +1,5 @@
 from repositories.train_repository import Trainrepository
-
-
+# The class is responsible for the app logic
 class TrainService:
     def __init__(self):
         self.train_repository = Trainrepository()
