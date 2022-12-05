@@ -10,10 +10,10 @@ class UI:
         self.train_service = TrainService()
         self.train_info_frame = None
 
-    def start(self):
+    def start(self): # renders the UI
         self._frame = ttk.Frame(master=self._root)
+        # starts train_info view:
         self.train_info_frame = ttk.Frame(master=self._frame)
-
         
         heading_label = ttk.Label(master=self._root, text="Train information")
         train_label = ttk.Label(master=self._root, text="Train number")
@@ -33,22 +33,14 @@ class UI:
         #self.train_info_frame
 
         self._frame.grid_columnconfigure(1, weight=1, minsize=300)
-
-
-
-
         
-    # event handler:
+    # event handler: takes the train number input and passes entry to the train_service
     def _handle_button_click(self):
         entry_value = self.train_entry.get()  # train number input from the user
         print(f"Value of entry is: {entry_value}")
         traininfo = self.train_service.get_train(entry_value) # passes value to the service
         self.initialize_train_info(traininfo)
         
-    #def destroy(self):
-    #    self._root.destroy()
-    
-
     def initialize_train_info(self, traininfo):
         if self.train_info_frame:
             self.train_info_frame.destroy()
