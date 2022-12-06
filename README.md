@@ -1,5 +1,5 @@
 # Train information
-Sovelluksen avulla käyttäjä voi hakea Suomen raideliikenteeseen liittyvää tietoa, jonka lähteenä on Fintrafficin tarjoama REST-rajapinta. Sovelluksen käyttö ei vaadi rekisteröitymistä eikä sovelluksen kautta tehdyt kyselyt tai niiden tulokset tallennu tietokantaan.
+Sovelluksen avulla käyttäjä voi hakea Suomen raideliikenteeseen liittyvää tietoa, jonka lähteenä on Fintrafficin tarjoama REST-rajapinta. Sovelluksen käyttö ei vaadi rekisteröitymistä eikä sovelluksen kautta tehdyt kyselyt tai niiden tulokset tallennu tietokantaan. Huom. tällä hetkellä haku tehdään automaattisesti nykyisellä päivämäärällä mutta tulevaisuudessa myös muun päivämäärän antaminen tehdään mahdolliseksi.
 ## Python-versio
 Sovellus on testattu vain Python-versiolla 3.8. Sovellus ei välttämättä toimi oikein vanhemmilla versioilla.
 ## Dokumentaatio
