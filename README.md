@@ -1,5 +1,5 @@
 # Train information
-Sovelluksen avulla käyttäjä voi hakea Suomen raideliikenteeseen liittyvää tietoa, jonka lähteenä on Fintrafficin tarjoama REST-rajapinta. Sovelluksen käyttö ei vaadi rekisteröitymistä.
+Sovelluksen avulla käyttäjä voi hakea Suomen raideliikenteeseen liittyvää tietoa, jonka lähteenä on Fintrafficin tarjoama REST-rajapinta. Sovelluksen käyttö ei vaadi rekisteröitymistä eikä sovelluksen kautta tehdyt kyselyt tai niiden tulokset tallennu tietokantaan.
 ## Python-versio
 Sovellus on testattu vain Python-versiolla 3.8. Sovellus ei välttämättä toimi oikein vanhemmilla versioilla.
 ## Dokumentaatio
@@ -37,6 +37,24 @@ Ohjelman voi suorittaa komennolla:
 ```bash
 poetry run invoke start
 ```
+### Testaus
+
+Testit tehdään komennolla:
+
+```bash
+poetry run invoke test
+```
+
+### Testikattavuus
+
+Testikattavuusraportti luodaan seuraavasti:
+
+```bash
+poetry run invoke coverage-report
+```
+
+Raportti luodaan _htmlcov_-hakemistoon.
+
 
 ### Pylint
 .pylintrc:ssä määritellyt tarkistukset suoritetaan komennolla:
