@@ -10,3 +10,7 @@
 - Lisätty testi rajapintaan (joka ei myöskään toimi vielä)
 - Lisätty invoken taskeja
 - päivitetty dokumentaatio, lisätty arkkitehtuuri.md
+## Viikko 5
+- testi jolla voi testata, että rajapinta palauttaa statuksen 200 toimii nyt
+- vastaustietojen näyttäminen graafisessa käyttöliittymässä ei toimi vieläkään, tähän myös kysytty apua ohjaajilta 
+- päivitetty dokumentaation, lisätty sekvenssikaavioarkkitehtuuriin.
