@@ -1,6 +1,6 @@
 from tkinter import ttk, constants
 
-class Train_info:
+class TrainInfo:
     def __init__(self, root, traininfo): # constructor for the class, instantiates an UI-object
         self._root = root
         self.train_info = traininfo

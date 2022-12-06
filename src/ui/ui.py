@@ -1,6 +1,6 @@
 from tkinter import Tk, ttk, constants
 from services.train_service import TrainService
-from ui.train_info import Train_info
+from ui.train_info import TrainInfo
 # dependant on Trainservice-class
 class UI:
     def __init__(self, root): # constructor for the class, instantiates an UI-object
@@ -38,11 +38,11 @@ class UI:
     def _handle_button_click(self):
         entry_value = self.train_entry.get()  # train number input from the user
         print(f"Value of entry is: {entry_value}")
-        traininfo = self.train_service.get_train(entry_value) # passes value to the service
-        self.initialize_train_info(traininfo)
+        traininfo = self.train_service.get_train(entry_value) # passes value to the TrainService -class
+        #self.initialize_train_info(traininfo)
         
     def initialize_train_info(self, traininfo):
         if self.train_info_frame:
             self.train_info_frame.destroy()
-        self.train_info_frame = Train_info(self.train_info_frame, traininfo)
+        self.train_info_frame = TrainInfo(self.train_info_frame, traininfo)
         self.train_info_frame.pack()
