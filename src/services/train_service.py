@@ -6,4 +6,3 @@ class TrainService:
 
     def get_train(self, train_number):
         self.train_repository.get_train_data(train_number)
-        # tämän pitäisi palauttaa myös kutsun tulos (junaolio)
