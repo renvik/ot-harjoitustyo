@@ -14,3 +14,8 @@
 - testi jolla voi testata, että rajapinta palauttaa statuksen 200 toimii nyt
 - vastaustietojen näyttäminen graafisessa käyttöliittymässä ei toimi vieläkään, tähän myös kysytty apua ohjaajilta 
 - päivitetty dokumentaation, lisätty sekvenssikaavioarkkitehtuuriin.
+## Viikko 6
+- käyttöliittymät refaktoroitu: ui ohjaa nyt käyttöliittymäluokkia SearchView ja ResultsView
+- SearchView:stä pääsee siirtymään ResultsView-näkymään johon tällä hetkellä tulostuu placeholder -teksti
+- rajapintahaun tiedot tulostuu yhä terminaaliin
+- dokumentaatio: arkkitehtuurikuvaus, käyttöohje yms. päivitetty
