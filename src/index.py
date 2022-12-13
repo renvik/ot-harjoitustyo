@@ -1,9 +1,9 @@
 from tkinter import Tk
 from ui.ui import UI
-# this class launches the UI
 
 def main():
-
+    """the class launches the UI and imports tkinter tk
+    """
     window = Tk()
     window.title("Information about trains")
 

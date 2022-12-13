@@ -1,12 +1,12 @@
 from repositories.train_repository import TrainRepository
-# 
+
 class TrainService:
     """The class is responsible for the app logic
-    Attributes: 
+    Attributes:
         train_number: number of the train
     """
     def __init__(self):
-        """constructor creates TrainRepository
+        """constructor that creates TrainRepository
         """
         self.train_repository = TrainRepository()
 
@@ -16,4 +16,5 @@ class TrainService:
         Args:
             train_number: a value that user gives
         """
-        self.train_repository.get_train_data(train_number)
+        #self.train_repository.get_train_data(train_number)
+        return self.train_repository.get_train_data(train_number)
