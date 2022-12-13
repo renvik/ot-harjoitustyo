@@ -18,6 +18,7 @@ Lopuksi käynnistä ohjelma komennolla:
 
 ```
 poetry run invoke start
+```
 
 ## Junatietojen hakeminen
 
