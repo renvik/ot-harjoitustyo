@@ -7,4 +7,5 @@
 | 29.11. | 6    | rajapintatulosten näyttäminen, pakkauskaavio |
 | 5.12.  | 4    | rajapintatestin kirjoittaminen, virheenselvittelyä|
 | 6.12.  | 3    | sekvenssikaavio, koodin laadun parannus|
-| Yht.  | 19    | |
+| 13.12. | 6    | dokumentaatio, virheenselvittelyä, lisää toiminnallisuutta|
+| Yht.   | 26   | |
