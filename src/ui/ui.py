@@ -11,8 +11,6 @@ class UI:
             TKinter-element into which the user interface is initialized
         """
         self._root = root
-        #self._frame = None
-        #self.entry = None
         self.train_service = TrainService()
         self._current_view = None
 
