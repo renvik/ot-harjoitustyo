@@ -1,10 +1,14 @@
 # Vaatimusmäärittely
 
 ## Sovelluksen tarkoitus
-Sovelluksen tarkoitus on tarjota aikataulutietoja junaliikenteestä. Sillä voi selvittää onko tietty juna aikataulussa ja missä juna sijaitsee tällä hetkellä.
-Junaliikenteen tiedot haetaan Fintrafficin tarjoamasta rajapinnasta.
+Sovelluksen tarkoitus on tarjota aikataulutietoja junaliikenteestä. Junaliikenteen tiedot haetaan Fintrafficin tarjoamasta rajapinnasta.
 [Fintrafficin palvelu](https://www.fintraffic.fi/fi/fintraffic/digitraffic-ja-avoin-data)
 
 ## Käyttäjät
-Sovelluksen käyttö on avointa eikä se vaadi rekisteröitymistä.
+Sovelluksen käyttö ei se vaadi rekisteröitymistä eikä käyttöön liittyviä tietoja tallenneta.
 
+## Perusversion tarjoama toiminnallisuus
+Perusversiossa käyttäjä voi hakea junan tietoja junan numeron ja lähtöpäivämäärän perusteella. Tiedot näytetään käyttäjälle terminaalissa.
+
+## Jatkokehitysideoita
+Junatietojen esittäminen terminaalin sijaan graafisessa käyttöliittymässä. Tätä varten on jo tehty erillinen näkymä ResultsView.
