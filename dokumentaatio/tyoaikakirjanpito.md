@@ -8,4 +8,6 @@
 | 5.12.  | 4    | rajapintatestin kirjoittaminen, virheenselvittelyä|
 | 6.12.  | 3    | sekvenssikaavio, koodin laadun parannus|
 | 13.12. | 6    | dokumentaatio, virheenselvittelyä, lisää toiminnallisuutta|
-| Yht.   | 26   | |
+| 22.12. | 5    | hakutoiminnallisuuden laajentaminen, virheenselvittelyä|
+| 25.12. | 2    | dokumentaation viimeistely, koodin siistiminen|
+| Yht.   | 32     | |
