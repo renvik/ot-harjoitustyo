@@ -15,6 +15,7 @@ class TrainService:
         """passes the train number to the TrainRepository
 
         Args:
-            train_number: a value that user gives
+            train_number: a value that the user gives
+            departure_date: a date that the user gives
         """
         return self.train_repository.get_train_data(train_number, departure_date)

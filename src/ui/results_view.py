@@ -17,6 +17,6 @@ class ResultsView:
     def _initialize(self):
      
         self._frame = ttk.Frame(master=self._root)
-        label = ttk.Label(master=self._frame, text="Train information will be shown here in the future")
+        label = ttk.Label(master=self._frame, text="Train information is currently shown in the terminal")
 
         label.grid(row=0, column=0)
