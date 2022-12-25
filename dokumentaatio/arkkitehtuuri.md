@@ -24,7 +24,7 @@ Sovellus ei tallenna käyttäjän tekemiä hakuja eikä niiden tuloksia.
 ## Päätoiminnallisuudet
 ### Juna-tiedon hakeminen päivämäärän ja junan numeron perusteella
 Käyttäjä voi hakea tietoa tietystä junasta antamalla kyseisen junan numeron ja lähtöpäivämäärän. Kun syötekenttään kirjoitetaan junan numero ja päivämäärä sekä klikataan painiketta _Search_, etenee sovelluksen kontrolli seuraavasti:
-![sekvenssikaavio](https://user-images.githubusercontent.com/51605816/205909906-232b3e40-fd40-4b3c-aef2-e100819c8123.png)
+![sekvenssikaavio_drawio](https://user-images.githubusercontent.com/51605816/209466513-f4faa01f-88c1-4aaf-ba6a-e4c4a20793c1.png)
 
 Painikkeen painamiseen reagoiva tapahtumankäsittelijä kutsuu sovelluslogiikan `TrainService` metodia antaen parametriksi junan numeron. Sovelluslogiikka hakee `TrainRepository`:n avulla rajapinnasta junannumeron ja päivämäärän perusteella kyseisen junan tiedot. Tämän jälkeen terminaalissa näkyy junan tiedot. 
 
