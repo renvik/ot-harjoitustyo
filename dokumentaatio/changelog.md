@@ -19,3 +19,6 @@
 - SearchView:stä pääsee siirtymään ResultsView-näkymään johon tällä hetkellä tulostuu placeholder -teksti
 - rajapintahaun tiedot tulostuu yhä terminaaliin
 - dokumentaatio: arkkitehtuurikuvaus, käyttöohje yms. päivitetty
+## Viikko 7
+- junatietojen haussa voi antaa nyt päivämäärän (aiemmin kovakoodattu tähän päivään)
+- dokumentaatio päivitetty vastaamaan lopullista toiminnallisuutta
