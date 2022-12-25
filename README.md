@@ -7,7 +7,8 @@ Sovellus on testattu vain Python-versiolla 3.8. Sovellus ei välttämättä toim
 - [Arkkitehtuuri](https://github.com/renvik/ot-harjoitustyo/blob/main/dokumentaatio/arkkitehtuuri.md)
 - [Työaikakirjanpito](https://github.com/renvik/ot-harjoitustyo/blob/main/dokumentaatio/tyoaikakirjanpito.md)
 - [Changelog](https://github.com/renvik/ot-harjoitustyo/blob/main/dokumentaatio/changelog.md)
-- [Release](https://github.com/renvik/ot-harjoitustyo/releases/tag/week5)
+- [Testaus](https://github.com/renvik/ot-harjoitustyo/blob/main/dokumentaatio/testaus.md)
+- [Release](https://github.com/renvik/ot-harjoitustyo/releases/tag/week7_final)
 
 ## Asennus
 
